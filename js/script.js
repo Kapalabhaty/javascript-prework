@@ -1,5 +1,5 @@
 function playGame(playerInput){
-debugger;    
+
     function clearMessages(){
         document.getElementById('messages').innerHTML = '';
     }
@@ -71,14 +71,6 @@ debugger;
 
     displayResult(ComputerMove, PlayerMove);
 }
-
-// function buttonClicked() {
-//     printMessage('Guzik został kliknięty');
-// }
-
-// let play-rock = document.getElementById('play-rock');
-
-// play-rock.addEventListener('click', buttonClicked);
 
 document.getElementById('play-rock').addEventListener('click',function (){playGame(1);
 });
