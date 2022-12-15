@@ -30,7 +30,7 @@ function playGame(playerInput){
 
     console.log('Gracz wpisał: ' + playerInput);
 
-    let PlayerMove = getMoveName(playerInput);
+    const PlayerMove = getMoveName(playerInput);
 
     console.log('PlayerMove variable is equal', PlayerMove);
 
